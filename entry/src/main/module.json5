@@ -1,0 +1,97 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:app_icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "orientation": "portrait",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ],
+    /*
+     * 桌面服务卡片提供方（Service Widget）。
+     *
+     * - type 必须为 "form"；
+     * - metadata 的 name 固定为 "ohos.extension.form"，resource 指向卡片配置
+     *   （resources/base/profile/form_config.json）—— 键名写错或漏写，上架会被判不合规；
+     * - 这里不需要 skills（那是 UIAbility 的入口声明）。
+     */
+    "extensionAbilities": [
+      {
+        "name": "UBAAFormAbility",
+        "srcEntry": "./ets/entryformability/UBAAFormAbility.ets",
+        "label": "$string:UBAAFormAbility_label",
+        "description": "$string:UBAAFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_internet_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility",
+            "UBAAFormAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "reason": "$string:permission_network_info_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility",
+            "UBAAFormAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "metadata": [
+      {
+        /*
+         * 应用级沉浸光感开关。
+         * 系统级 uiMaterial（普通 ArkUI 组件材质）自 API 26 起生效；
+         * 在 API 23 上该 metadata 被忽略，沉浸光感由 HDS 组件的 systemMaterialEffect 提供。
+         */
+        "name": "uiMaterial",
+        "value": "true"
+      }
+    ]
+  }
+}

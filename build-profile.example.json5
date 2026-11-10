@@ -1,0 +1,57 @@
+{
+  /*
+   * 工程级构建配置模板（不含本机调试签名凭据）。
+   * 用法：复制本文件为 build-profile.json5，再在 DevEco Studio 中
+   *       File > Project Structure > Signing Configs 勾选自动签名。
+   *
+   * compatibleSdkVersion / targetSdkVersion 固定为 6.1.0(23)：
+   * - HdsTabs 的 barFloatingStyle（悬浮页签）与 systemMaterialEffect（沉浸光感）自 API 23 起提供。
+   * - 低于 API 23 的设备无法安装，符合本项目「API 23 及以上可用」的目标。
+   */
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        /*
+         * compatibleSdkVersion = 最低可安装版本。项目目标是「API 23 及以上可用」，
+         * 因此固定 6.1.0(23)，与 AppScope/app.json5 的 minAPIVersion / targetAPIVersion 保持一致。
+         *
+         * 注意：不要显式写 compileSdkVersion。
+         * 该字段跟随 DevEco Studio 自带 SDK（本机为 26.0.0(26)），
+         * 写死成低版本会触发 hvigor ERROR 00303313（Configuration Error）。
+         */
+        "compatibleSdkVersion": "6.1.0(23)",
+        "targetSdkVersion": "6.1.0(23)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

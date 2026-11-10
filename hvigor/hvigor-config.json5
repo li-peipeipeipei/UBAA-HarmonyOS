@@ -1,0 +1,13 @@
+{
+  "modelVersion": "6.1.0",
+  "dependencies": {},
+  "execution": {
+    // "daemon": true,
+    // "incremental": true,
+    // "parallel": true,
+    // "typeCheck": false
+  },
+  "logging": {},
+  "debugging": {},
+  "nodeOptions": {}
+}

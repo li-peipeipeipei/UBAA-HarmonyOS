@@ -1,0 +1,34 @@
+# 混淆规则（release 构建默认关闭，如需开启请把 build-profile.json5 中的 enable 改为 true）
+# 保留网络模型字段名，避免 JSON 反序列化失败
+-keep-property-name
+  accessToken
+  refreshToken
+  accessTokenExpiresAt
+  refreshTokenExpiresAt
+  itemCode
+  itemName
+  itemIndex
+  arrangedList
+  sectionTimes
+  courseCode
+  courseName
+  courseSerialNo
+  beginTime
+  endTime
+  beginSection
+  endSection
+  placeName
+  weeksAndTeachers
+  teachingTarget
+  dayOfWeek
+  examTimeDescription
+  examDate
+  examPlace
+  examSeatNo
+  examStatus
+  examType
+  taskId
+  serialNumber
+  curWeek
+  startDate
+  endDate

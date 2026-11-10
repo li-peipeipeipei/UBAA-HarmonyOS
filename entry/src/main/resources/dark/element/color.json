@@ -1,0 +1,156 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#000000"
+    },
+    {
+      "name": "brand",
+      "value": "#5AA9F0"
+    },
+    {
+      "name": "brand_dark",
+      "value": "#3D8FDC"
+    },
+    {
+      "name": "brand_light",
+      "value": "#7BBDF5"
+    },
+    {
+      "name": "brand_container",
+      "value": "#1A3350"
+    },
+    {
+      "name": "brand_container_glass",
+      "value": "#992B4E78"
+    },
+    {
+      "name": "page_background",
+      "value": "#000000"
+    },
+    {
+      "name": "page_background_top",
+      "value": "#0A1622"
+    },
+    {
+      "name": "surface",
+      "value": "#1A1A1A"
+    },
+    {
+      "name": "surface_subtle",
+      "value": "#141414"
+    },
+    {
+      "name": "glass_surface",
+      "value": "#B3141414"
+    },
+    {
+      "name": "circle_button_surface",
+      "value": "#1FFFFFFF"
+    },
+    {
+      "name": "tab_bar_mask",
+      "value": "#CC000000"
+    },
+    {
+      "name": "text_primary",
+      "value": "#E6FFFFFF"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#99FFFFFF"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#66FFFFFF"
+    },
+    {
+      "name": "text_on_brand",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "divider",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "warning",
+      "value": "#FF8C42"
+    },
+    {
+      "name": "danger",
+      "value": "#FF6B52"
+    },
+    {
+      "name": "success",
+      "value": "#63C25A"
+    },
+    {
+      "name": "classroom_free",
+      "value": "#8FE0B8"
+    },
+    {
+      "name": "classroom_busy",
+      "value": "#E39A9A"
+    },
+    {
+      "name": "classroom_grid",
+      "value": "#4D000000"
+    },
+    {
+      "name": "brand_glass",
+      "value": "#8C1976D2"
+    },
+    {
+      "name": "accent_yellow",
+      "value": "#FFC94A"
+    },
+    {
+      "name": "accent_green",
+      "value": "#4FBF8B"
+    },
+    {
+      "name": "accent_purple",
+      "value": "#9E8AFF"
+    },
+    {
+      "name": "accent_pink",
+      "value": "#F0779F"
+    },
+    {
+      "name": "card_surface",
+      "value": "#2F3034"
+    },
+    {
+      "name": "card_accent",
+      "value": "#F76045"
+    },
+    {
+      "name": "card_divider",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "header_halo",
+      "value": "#FF000000"
+    },
+    {
+      "name": "header_scrim",
+      "value": "#E8000000"
+    },
+    {
+      "name": "header_text",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "header_pill",
+      "value": "#59000000"
+    },
+    {
+      "name": "header_shadow",
+      "value": "#FF000000"
+    },
+    {
+      "name": "header_shadow_solid",
+      "value": "#FF000000"
+    }
+  ]
+}

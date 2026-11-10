@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "header_shadow_radius",
+      "value": "10vp"
+    },
+    {
+      "name": "header_shadow_offset_x",
+      "value": "0vp"
+    },
+    {
+      "name": "header_shadow_offset_y",
+      "value": "0vp"
+    },
+    {
+      "name": "header_shadow_solid_radius",
+      "value": "0.5vp"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modelVersion": "6.1.0",
+  "name": "ubaa-harmony",
+  "version": "0.1.0",
+  "description": "UBAA 鸿蒙原生客户端（HarmonyOS 6.1.0 / API 23+）",
+  "main": "",
+  "author": "BUAASubnet",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "UBAA 鸿蒙原生客户端主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "智慧北航 · 校园服务聚合客户端"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智慧北航"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "用于连接北航校园服务，获取课表、成绩、考试等数据"
+    },
+    {
+      "name": "permission_network_info_reason",
+      "value": "用于判断当前网络状态，在离线时提示并切换连接模式"
+    },
+    {
+      "name": "tab_home",
+      "value": "主页"
+    },
+    {
+      "name": "tab_schedule",
+      "value": "课表"
+    },
+    {
+      "name": "tab_feature",
+      "value": "功能"
+    },
+    {
+      "name": "tab_mine",
+      "value": "我的"
+    },
+    {
+      "name": "UBAAFormAbility_label",
+      "value": "智慧北航服务卡片"
+    },
+    {
+      "name": "UBAAFormAbility_desc",
+      "value": "在桌面直接查看课表，点击可打开应用"
+    },
+    {
+      "name": "card_schedule_small_name",
+      "value": "下一节课 · 小"
+    },
+    {
+      "name": "card_schedule_small_desc",
+      "value": "桌面 1×2 小卡：下一节课的时间、地点与今天节数"
+    },
+    {
+      "name": "card_exam_small_name",
+      "value": "考试倒计时"
+    },
+    {
+      "name": "card_exam_small_desc",
+      "value": "桌面 1×2 小卡：最近一场考试的倒计时、时间与考场"
+    },
+    {
+      "name": "card_grade_small_name",
+      "value": "本学期成绩"
+    },
+    {
+      "name": "card_grade_small_desc",
+      "value": "桌面 1×2 小卡：平均绩点、已修学分与最高分课程"
+    },
+    {
+      "name": "card_classroom_small_name",
+      "value": "空闲教室"
+    },
+    {
+      "name": "card_classroom_small_desc",
+      "value": "桌面 1×2 小卡：查询日的空闲教室数量与一个具体教室号"
+    },
+    {
+      "name": "card_schedule_week_name",
+      "value": "周课表"
+    },
+    {
+      "name": "card_schedule_week_desc",
+      "value": "桌面大卡（4×4 / 6×4 可调整）：一整周七天的课表网格，左侧标节次与时间"
+    },
+    {
+      "name": "card_schedule_day_name",
+      "value": "今日详表"
+    },
+    {
+      "name": "card_schedule_day_desc",
+      "value": "桌面卡（4×4 / 2×4 可调整）：今天全天的课与每节起止时间"
+    }
+  ]
+}

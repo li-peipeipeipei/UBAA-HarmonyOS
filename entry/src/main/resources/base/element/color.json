@@ -1,0 +1,156 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "brand",
+      "value": "#1976D2"
+    },
+    {
+      "name": "brand_dark",
+      "value": "#1565C0"
+    },
+    {
+      "name": "brand_light",
+      "value": "#1E88E5"
+    },
+    {
+      "name": "brand_container",
+      "value": "#E3F0FC"
+    },
+    {
+      "name": "brand_container_glass",
+      "value": "#99E3F0FC"
+    },
+    {
+      "name": "page_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "page_background_top",
+      "value": "#E8F0FA"
+    },
+    {
+      "name": "surface",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "surface_subtle",
+      "value": "#F7F8FA"
+    },
+    {
+      "name": "glass_surface",
+      "value": "#B3F7F8FA"
+    },
+    {
+      "name": "circle_button_surface",
+      "value": "#14000000"
+    },
+    {
+      "name": "tab_bar_mask",
+      "value": "#66F1F3F5"
+    },
+    {
+      "name": "text_primary",
+      "value": "#E6000000"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#99000000"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#66000000"
+    },
+    {
+      "name": "text_on_brand",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "card_surface",
+      "value": "#F2F3F5"
+    },
+    {
+      "name": "divider",
+      "value": "#1A000000"
+    },
+    {
+      "name": "warning",
+      "value": "#FA6400"
+    },
+    {
+      "name": "danger",
+      "value": "#E84026"
+    },
+    {
+      "name": "success",
+      "value": "#3F9C35"
+    },
+    {
+      "name": "classroom_free",
+      "value": "#8FE0B8"
+    },
+    {
+      "name": "classroom_busy",
+      "value": "#F6C5C5"
+    },
+    {
+      "name": "classroom_grid",
+      "value": "#4D000000"
+    },
+    {
+      "name": "brand_glass",
+      "value": "#8C1976D2"
+    },
+    {
+      "name": "accent_yellow",
+      "value": "#FFB300"
+    },
+    {
+      "name": "accent_green",
+      "value": "#30A46C"
+    },
+    {
+      "name": "accent_purple",
+      "value": "#7B61FF"
+    },
+    {
+      "name": "accent_pink",
+      "value": "#E64A7B"
+    },
+    {
+      "name": "card_accent",
+      "value": "#C8501E"
+    },
+    {
+      "name": "card_divider",
+      "value": "#14000000"
+    },
+    {
+      "name": "header_halo",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "header_scrim",
+      "value": "#E8FFFFFF"
+    },
+    {
+      "name": "header_text",
+      "value": "#000000"
+    },
+    {
+      "name": "header_pill",
+      "value": "#1F000000"
+    },
+    {
+      "name": "header_shadow",
+      "value": "#CC000000"
+    },
+    {
+      "name": "header_shadow_solid",
+      "value": "#00000000"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "UBAA HarmonyOS native client module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "BUAA Campus Service Client"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "UBAA"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "Required to fetch schedules, grades and exam data from campus services"
+    },
+    {
+      "name": "permission_network_info_reason",
+      "value": "Required to detect network status for offline hints"
+    },
+    {
+      "name": "tab_home",
+      "value": "Home"
+    },
+    {
+      "name": "tab_schedule",
+      "value": "Schedule"
+    },
+    {
+      "name": "tab_feature",
+      "value": "Features"
+    },
+    {
+      "name": "tab_mine",
+      "value": "Mine"
+    }
+  ]
+}
